@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     prefix: 'ppx-',
+    important: true,
     content: [
         "./index.html",
         "./src/**/*.{js,ts,jsx,tsx}",

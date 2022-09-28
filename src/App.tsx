@@ -10,6 +10,8 @@ import bgImg from './assets/bg.png';
 import { Button, Col, Figure, Row } from 'react-bootstrap';
 import p1 from './assets/images/products/pedilac/IGC_8532.png';
 import bandage from './assets/bandge.svg';
+import cert1 from './assets/images/certs/1.jpg';
+import cert2 from './assets/images/certs/2.jpg';
 
 function App() {
     return (
@@ -165,7 +167,7 @@ function App() {
 
                         <p className={'ppx-text-gray-500 mt-3 ppx-text-lg'}>PROMILK là dây truyền sản xuất sữa bột dinh dưỡng cho trẻ em, phụ nữ mang thai và cho người lớn tuổi. </p>
 
-                        <Button className={'ppx-bg-brand-green mt-4 ppx-rounded-3xl'} size={'lg'}>
+                        <Button className={'ppx-bg-brand-green mt-3 md:mt-4 ppx-rounded-3xl ppx-w-40'} size={'lg'}>
                             Liên hệ
                         </Button>
                     </div>
@@ -192,11 +194,12 @@ function App() {
                             </Col>
 
                             <Col>
-                                <p className={'ppx-text-2xl ppx-font-semibold'}>Mục tiêu</p>
+                                <p className={'ppx-text-2xl ppx-font-semibold'}>Chuẩn vệ sinh an toàn thực phẩm</p>
 
                                 <p className={'ppx-text-base ppx-text-gray-600 mt-1'}>
-                                    Cải thiện chất lượng sản phẩm hiện tại, nghiên cứu sản phẩm mới để ra mắt thị trường nhằm đa dạng hóa sản phẩm và đáp ứng nhu cầu người tiêu dùng ngày càng cao.
-                                    PROMILK không ngừng đầu tư trang thiết bị, nguồn nhân lực và năng lực quản lý.
+                                    PROMILK đã đạt chuẩn vệ sinh an toàn thực phẩm tại Việt Nam. Nhằm mục đích đưa sản phẩm tốt đến tận tay người tiêu dùng, chúng tôi đã phát triển một hệ thống phân
+                                    phối rộng trong nước với phong cách phục vu khách hàng tận tình với phương châm{' '}
+                                    <span className={'ppx-font-semibold'}>"SỰ HÀI LÒNG CỦA KHÁCH HÀNG LÀ THÀNH CÔNG CỦA CHÚNG TÔI"</span>.
                                 </p>
                             </Col>
                         </Row>
@@ -240,17 +243,120 @@ function App() {
                                 </Col>
 
                                 <Col>
-                                    <p className={'ppx-text-2xl ppx-font-semibold'}>Mục tiêu</p>
+                                    <p className={'ppx-text-2xl ppx-font-semibold'}>Chuẩn vệ sinh an toàn thực phẩm</p>
 
                                     <p className={'ppx-text-base ppx-text-gray-600 mt-1'}>
-                                        Cải thiện chất lượng sản phẩm hiện tại, nghiên cứu sản phẩm mới để ra mắt thị trường nhằm đa dạng hóa sản phẩm và đáp ứng nhu cầu người tiêu dùng ngày càng cao.
-                                        PROMILK không ngừng đầu tư trang thiết bị, nguồn nhân lực và năng lực quản lý.
+                                        PROMILK đã đạt chuẩn vệ sinh an toàn thực phẩm tại Việt Nam. Nhằm mục đích đưa sản phẩm tốt đến tận tay người tiêu dùng, chúng tôi đã phát triển một hệ thống
+                                        phân phối rộng trong nước với phong cách phục vu khách hàng tận tình với phương châm{' '}
+                                        <span className={'ppx-font-semibold'}>"SỰ HÀI LÒNG CỦA KHÁCH HÀNG LÀ THÀNH CÔNG CỦA CHÚNG TÔI"</span>.
                                     </p>
                                 </Col>
                             </Row>
                         </Col>
                     </Row>
                 </div>
+            </div>
+
+            {/*Zone for cert*/}
+            <div className={'md:ppx-hidden mt-5 text-center'}>
+                <div className={'ppx-bg-bg-green py-5 px-3'}>
+                    <Row>
+                        <Col xs={12} className={'mb-3'}>
+                            <img src={cert1} alt={'cert 1'} style={{ height: '28rem' }} className={'ppx-w-auto ppx-mx-auto'} />
+                        </Col>
+
+                        <Col xs={12}>
+                            <img src={cert2} alt={'cert 2'} style={{ height: '28rem' }} className={'ppx-w-auto ppx-mx-auto'} />
+                        </Col>
+                    </Row>
+
+                    <p className={'mt-4 ppx-font-medium ppx-text-xl'}>PROMILK đã đạt chuẩn vệ sinh an toàn thực phẩm tại Việt Nam</p>
+                </div>
+            </div>
+
+            <div className={'ppx-hidden md:ppx-block ppx-mt-32 ppx-bg-bg-green ppx-container ppx-rounded-3xl'}>
+                <div className={'ppx-px-10 ppx-relative ppx-py-10 text-center'}>
+                    <div className={'ppx-flex ppx-flex-row ppx-justify-around'}>
+                        <img src={cert1} alt={'cert 1'} style={{ height: '32rem' }} className={'ppx-w-auto'} />
+
+                        <img src={cert2} alt={'cert 1'} style={{ height: '32rem' }} className={'ppx-w-auto'} />
+                    </div>
+
+                    <p className={'mt-4 ppx-font-medium ppx-text-xl'}>PROMILK đã đạt chuẩn vệ sinh an toàn thực phẩm tại Việt Nam</p>
+                </div>
+            </div>
+
+            {/*Footer*/}
+            {/*For desktop*/}
+            <div className={'ppx-hidden md:ppx-block footer mt-5 ppx-bg-brand-green ppx-text-gray-100'}>
+                <div className={'ppx-container'}>
+                    <Row>
+                        <Col style={{ borderRight: '1px solid #fff', borderBottom: '1px solid #fff' }} className={'ppx-pt-10'}>
+                            <p className={'ppx-font-black ppx-text-3xl mb-3'}>Promilk</p>
+                            <p className={'ppx-font-light mb-3'}>Phân phối bỏi công ty TNHH Dược phẩm DIAMOND</p>
+                            <p className={'ppx-font-light mb-3'}>
+                                Sản xuất: <span className={'ppx-font-semibold'}>Nhà máy sữa promilk</span>
+                            </p>
+                            <p className={'ppx-font-light'}>Địa chỉ: Phù Đổng, Gia Lâm, Hà Nội</p>
+                        </Col>
+
+                        <Col style={{ borderBottom: '1px solid #fff' }} className={'ppx-pt-10 ppx-pb-14'}>
+                            <p className={'ppx-font-black ppx-text-3xl mb-3'}>Liên hệ</p>
+                            <p className={'ppx-font-light mb-3'}>
+                                <span className={'ppx-font-semibold'}>Địa chỉ:</span> 120/42 Kim Giang, p.Đại Kim, Hoàng Mai, Hà Nội
+                            </p>
+                            <p className={'ppx-font-light mb-3'}>
+                                <span className={'ppx-font-semibold'}>Email:</span> <a href={'mailto:diamondpharmavn@gmail.com'}>diamondpharmavn@gmail.com</a>
+                            </p>
+                            <p className={'ppx-font-light mb-3'}>
+                                <span className={'ppx-font-semibold'}>Số điện thoại:</span> 0931999828
+                            </p>
+                            <p className={'ppx-font-light'}>
+                                <span className={'ppx-font-semibold'}>Website:</span> <a href={'https://promilk.vn'}>https://promilk.vn</a>
+                            </p>
+                        </Col>
+
+                        <Col style={{ borderLeft: '1px solid #fff', borderBottom: '1px solid #fff' }}></Col>
+                    </Row>
+
+                    <div className={'ppx-py-5 text-center'}>
+                        <p>Copyright © {new Date().getFullYear()} PROMILK</p>
+                    </div>
+                </div>
+            </div>
+
+            {/*Mobile*/}
+            <div className={'md:ppx-hidden ppx-bg-brand-green ppx-text-gray-100 mt-5 py-5 px-4'}>
+                <p className={'ppx-text-4xl ppx-font-bold'}>Promilk</p>
+
+                <div className={'mt-5'}>
+                    <p className={'ppx-font-light mb-3'}>Phân phối bỏi công ty TNHH Dược phẩm DIAMOND</p>
+                    <p className={'ppx-font-light mb-3'}>
+                        Sản xuất: <span className={'ppx-font-semibold'}>Nhà máy sữa promilk</span>
+                    </p>
+                    <p className={'ppx-font-light'}>Địa chỉ: Phù Đổng, Gia Lâm, Hà Nội</p>
+                </div>
+
+                <div className={'mt-5'}>
+                    <p className={'ppx-font-semibold ppx-text-2xl mb-3'}>Liên hệ</p>
+
+                    <p className={'ppx-font-light mb-3'}>
+                        <span className={'ppx-font-semibold'}>Địa chỉ:</span> 120/42 Kim Giang, p.Đại Kim, Hoàng Mai, Hà Nội
+                    </p>
+                    <p className={'ppx-font-light mb-3'}>
+                        <span className={'ppx-font-semibold'}>Email:</span> <a href={'mailto:diamondpharmavn@gmail.com'}>diamondpharmavn@gmail.com</a>
+                    </p>
+                    <p className={'ppx-font-light mb-3'}>
+                        <span className={'ppx-font-semibold'}>Số điện thoại:</span> 0931999828
+                    </p>
+                    <p className={'ppx-font-light'}>
+                        <span className={'ppx-font-semibold'}>Website:</span> <a href={'https://promilk.vn'}>https://promilk.vn</a>
+                    </p>
+                </div>
+
+                <hr className={'ppx-text-white ppx-border-2 ppx-border-white mt-3 mb-2'} />
+
+                <p className={'text-center ppx-text-sm'}>Copyright © {new Date().getFullYear()} PROMILK</p>
             </div>
         </div>
     );

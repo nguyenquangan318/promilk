@@ -2,18 +2,18 @@
 
 import React from 'react';
 
-import bannerBg from './assets/mobileBg.png';
+import bannerBg from '../../assets/mobileBg.png';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import bgImg from './assets/bg.png';
+import bgImg from '../../assets/bg.png';
 import { Button, Col, Figure, Row } from 'react-bootstrap';
-import p1 from './assets/images/products/pedilac/IGC_8532.png';
-import bandage from './assets/bandge.svg';
-import cert1 from './assets/images/certs/1.jpg';
-import cert2 from './assets/images/certs/2.jpg';
+import p1 from '../../assets/images/products/pedilac/IGC_8532.png';
+import bandage from '../../assets/bandge.svg';
+import cert1 from '../../assets/images/certs/1.jpg';
+import cert2 from '../../assets/images/certs/2.jpg';
 
-function App() {
+function Home() {
     return (
         <div className="App">
             <div className={'header'}>
@@ -362,4 +362,4 @@ function App() {
     );
 }
 
-export default App;
+export default Home;

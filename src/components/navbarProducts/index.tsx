@@ -7,12 +7,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import { Button } from 'react-bootstrap';
 import bgImg from '../../assets/bg.png';
+import { Link } from 'react-router-dom';
 
 function NavbarProducts() {
     return (
         <div className={'navbarProducts'}>
             <div className={'banner'}>
-                <Navbar bg="light" expand="md" sticky="top" className={'ppx-bg-product-bg-green ppx-shadow-2xl'}>
+                <Navbar bg="light" expand="md" sticky="top" className={'ppx-bg-product-bg-green ppx-shadow-lg'}>
                     <Container>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
@@ -24,8 +25,12 @@ function NavbarProducts() {
                             <Nav className="me-auto"></Nav>
 
                             <Nav>
-                                <Nav.Link href="#deets">Trang chủ</Nav.Link>
-                                <Nav.Link href="#memes">Sản phẩm</Nav.Link>
+                                <Nav.Link>
+                                    <Link to={'/'}>Trang chủ</Link>
+                                </Nav.Link>
+                                <Nav.Link>
+                                    <Link to={'/products'}>Sản phẩm</Link>
+                                </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

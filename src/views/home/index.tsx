@@ -12,6 +12,7 @@ import p1 from '../../assets/images/products/pedilac/IGC_8532.png';
 import bandage from '../../assets/bandge.svg';
 import cert1 from '../../assets/images/certs/1.jpg';
 import cert2 from '../../assets/images/certs/2.jpg';
+import {Link} from "react-router-dom";
 
 function Home() {
     return (
@@ -41,8 +42,12 @@ function Home() {
                                 <Nav className="me-auto"></Nav>
 
                                 <Nav>
-                                    <Nav.Link href="#deets">Trang chủ</Nav.Link>
-                                    <Nav.Link href="#memes">Sản phẩm</Nav.Link>
+                                    <Nav.Link>
+                                        <Link to={'/'}>Trang chủ</Link>
+                                    </Nav.Link>
+                                    <Nav.Link>
+                                        <Link to={'/products'}>Sản phẩm</Link>
+                                    </Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>
@@ -77,8 +82,12 @@ function Home() {
                                 <Nav className="me-auto"></Nav>
 
                                 <Nav>
-                                    <Nav.Link href="#deets">Trang chủ</Nav.Link>
-                                    <Nav.Link href="#memes">Sản phẩm</Nav.Link>
+                                    <Nav.Link>
+                                        <Link to={'/'}>Trang chủ</Link>
+                                    </Nav.Link>
+                                    <Nav.Link>
+                                        <Link to={'/products'}>Sản phẩm</Link>
+                                    </Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>

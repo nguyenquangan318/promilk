@@ -1,9 +1,9 @@
 /** @format */
 
-import React from 'react';
+import React, { useState } from 'react';
 import NavbarProducts from '../../components/navbarProducts';
 import Container from 'react-bootstrap/Container';
-import { Card, Col, Row } from 'react-bootstrap';
+import { Button, Card, Col, Row } from 'react-bootstrap';
 
 import bannerDesktop1 from '../../assets/images/banner/desktop-1.png';
 import bannerDesktop2 from '../../assets/images/banner/desktop-2.png';
@@ -14,7 +14,13 @@ import icon2 from '../../assets/images/icon/icon2.png';
 import icon3 from '../../assets/images/icon/icon3.png';
 import icon4 from '../../assets/images/icon/icon4.png';
 
+import './index.css';
+
+import tagsListData from '../../data/productTags.json';
+
 function Products() {
+    const [selectedTags, setSelectedTags] = useState<string[]>(tagsListData.map((x) => x.name));
+
     return (
         <div className={'productPage'}>
             <NavbarProducts />
@@ -42,21 +48,21 @@ function Products() {
                             </Col>
 
                             <Col sm={3}>
-                                <Card className={'ppx-bg-product-bg-green ppx-shadow-xl p-3 text-center'}>
+                                <Card className={'ppx-bg-product-bg-green ppx-shadow-lg p-3 text-center'}>
                                     <img src={icon2} alt={'icon2'} className={'ppx-h-11 ppx-w-11 mx-auto'} />
                                     <p className={'mt-2 ppx-text-brand-green ppx-font-semibold ppx-text-sm'}>Hỗ trợ khách hàng 24/7</p>
                                 </Card>
                             </Col>
 
                             <Col sm={3}>
-                                <Card className={'ppx-bg-product-bg-green ppx-shadow-xl p-3 text-center'}>
+                                <Card className={'ppx-bg-product-bg-green ppx-shadow-lg p-3 text-center'}>
                                     <img src={icon3} alt={'icon3'} className={'ppx-h-11 ppx-w-11 mx-auto'} />
                                     <p className={'mt-2 ppx-text-brand-green ppx-font-semibold ppx-text-sm'}>Đảm bảo chất lượng</p>
                                 </Card>
                             </Col>
 
                             <Col sm={3}>
-                                <Card className={'ppx-bg-product-bg-green ppx-shadow-xl p-3 text-center'}>
+                                <Card className={'ppx-bg-product-bg-green ppx-shadow-lg p-3 text-center'}>
                                     <img src={icon4} alt={'icon4'} className={'ppx-h-11 ppx-w-11 mx-auto'} />
                                     <p className={'mt-2 ppx-text-brand-green ppx-font-semibold ppx-text-sm'}>Đầy đủ quyền lợi</p>
                                 </Card>
@@ -68,7 +74,15 @@ function Products() {
 
             <div className={'ppx-bg-product-bg-green py-3'}>
                 <Container>
-                    <p>Tất cả sản phẩm</p>
+                    <p className={'ppx-font-semibold ppx-text-xl mb-3'}>Tất cả sản phẩm</p>
+
+                    <div className={'tagArea'}>
+                        {tagsListData.map((x) => (
+                            <Button className={''}>{x.name}</Button>
+                        ))}
+                    </div>
+
+                    <div className={'productArea'}></div>
                 </Container>
             </div>
         </div>

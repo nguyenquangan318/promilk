@@ -1,0 +1,53 @@
+{
+    "monmon": [
+        {
+            "id": 1,
+            "title": "Monmon CANXI NANO",
+            "description": "(Dùng cho người từ 18 tuổi trở lên).Giúp xương chắc khỏe ngăn ngừa loãng xương, cân bằng huyết áp, ngăn ngừa tiểu đường.",
+            "image": "/images/products/monmon/IGC_7033.jpg",
+            "price": "445,000"
+        },
+        {
+            "id": 2,
+            "title": "Monmon WEIGHT GAIN",
+            "description": "Dùng cho mọi lứa tuổi ( Dinh dưỡng dặc biệt danh cho người gầy, người cần cải thiện cân nặng, thể trạng giúp tăng cân bền vững.",
+            "image": "/images/products/monmon/IGC_7036.jpg",
+            "price": "445,000"
+        },
+        {
+            "id": 3,
+            "title": "Monmon SURE",
+            "description": "(Dùng cho người từ 18 tuổi trở lên). Dành cho người cần phục hồi sức khỏe trước và sau phẫu thuật, hỗ trợ hệ tim mạch, ngăn ngừa táo bón và tăng sức đề kháng.",
+            "image": "/images/products/monmon/IGC_7037.jpg",
+            "price": "475,000"
+        },
+        {
+            "id": 4,
+            "title": "Monmon DIABETES",
+            "description": "(Dùng cho người từ 18 tuổi trở lên). Giúp ổn định đường huyết, hỗ trợ hệ tiêu hóa ngăn ngừa táo bón, tăng cường sức khỏe thể trạng, tăng cường sức đề kháng.",
+            "image": "/images/products/monmon/IGC_7038.jpg",
+            "price": "475,000"
+        },
+        {
+            "id": 5,
+            "title": "Monmon MAMA",
+            "description": "(Dùng cho bà bầu thai kì và sau sinh). Bổ sung vitamin và khoáng chất cần thiết giúp thai nhi phát triển tốt, tăng cường miễn dịch, phòng ngừa suy dinh dưỡng, ngừa táo bón.",
+            "image": "/images/products/monmon/IGC_7039.jpg",
+            "price": "445,000"
+        },
+        {
+            "id": 6,
+            "title": "Monmon GROW",
+            "description": "Dùng cho trẻ từ 1 \uF0E0 15 tuổi (Phát triển chiều cao và trí não,  hỗ trợ tối đa cho sự phát triển hệ nhãn khoa).",
+            "image": "/images/products/monmon/IGC_7040.jpg",
+            "price": "465,000"
+        },
+        {
+            "id": 7,
+            "title": "Monmon PEDIA",
+            "description": "(Dùng cho trẻ từ 1 – 10 tuổi) Dùng cho trẻ biếng ăn, hấp thụ kém, cải thiện hệ vi sinh đường ruột giúp hệ tiêu hóa khỏe mạnh.",
+            "image": "/images/products/monmon/IGC_7041.jpg",
+            "price": "465,000"
+        }
+    ]
+}

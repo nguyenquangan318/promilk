@@ -8,11 +8,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import bgImg from '../../assets/bg.png';
 import { Button, Col, Figure, Row } from 'react-bootstrap';
-import p1 from '../../assets/images/products/pedilac/IGC_8532.png';
 import bandage from '../../assets/bandge.svg';
 import cert1 from '../../assets/images/certs/1.jpg';
 import cert2 from '../../assets/images/certs/2.jpg';
-import {Link} from "react-router-dom";
+import { Link } from 'react-router-dom';
+import hotProductsData from '../../data/hotProducts.json';
 
 function Home() {
     return (
@@ -146,26 +146,16 @@ function Home() {
                 </div>
 
                 <Row className={'ppx-container ppx-h-full'}>
-                    <Col xs={6} md={4}>
-                        <Figure>
-                            <Figure.Image className={'ppx-h-96 ppx-w-auto'} alt="171x180" src={p1} />
-                        </Figure>
-                    </Col>
-
-                    <Col xs={6} md={4}>
-                        <Figure>
-                            <Figure.Image className={'ppx-h-96 ppx-w-auto'} alt="171x180" src={p1} />
-                        </Figure>
-                    </Col>
-
-                    <Col xs={6} md={4}>
-                        <Figure>
-                            <Figure.Image className={'ppx-h-96 ppx-w-auto'} alt="171x180" src={p1} />
-                        </Figure>
-                    </Col>
+                    {hotProductsData.map((x) => (
+                        <Col xs={6} md={4} key={x}>
+                            <img src={x} alt={'hot product'} />
+                        </Col>
+                    ))}
                 </Row>
 
-                <p className={'ppx-text-brand-green ppx-font-semibold text-center ppx-text-xl'}>Tất cả sản phẩm</p>
+                <Link to={'/products'} className={'mt-1'}>
+                    <p className={'ppx-text-brand-green ppx-font-semibold text-center ppx-text-xl'}>Tất cả sản phẩm</p>
+                </Link>
             </div>
 
             {/*About for mobile*/}

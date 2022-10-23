@@ -14,7 +14,7 @@ type ProductCardProps = {
 
 export function ProductCard(props: ProductCardProps) {
     return (
-        <Card className={`mb-3 ppx-rounded-2xl ppx-shadow-lg ppx-h-100 ${props.hotProduct ? 'ppx-bg-product-banner-bg-green' : 'ppx-bg-product-bg-green'} ${props.styleClass}`}>
+        <Card className={`mb-3 ppx-rounded-2xl ppx-shadow-lg d-flex align-items-stretch ${props.hotProduct ? 'ppx-bg-product-banner-bg-green' : 'ppx-bg-product-bg-green'} ${props.styleClass}`}>
             {props.imagePath ? (
                 <div className={'p-2'}>
                     <img className={'ppx-rounded-2xl'} src={props.imagePath} alt={props.title} />
@@ -28,7 +28,7 @@ export function ProductCard(props: ProductCardProps) {
 
                 <p className={'ppx-text-sm mb-2'}>{props.description}</p>
 
-                <p className={'ppx-text-2xl mb-2 ppx-text-red-500 ppx-font-medium'}>{props.price} đ</p>
+                <p className={'ppx-text-xl mb-2 ppx-text-red-500 ppx-font-medium'}>{props.price} <span className={'ppx-text-md'}>vnđ</span></p>
 
                 <a href={'aklnsd'} className={'ppx-text-sm ppx-text-brand-green'}>
                     Xem chi tiết <i className="fa-solid fa-arrow-right"></i>

@@ -49,5 +49,165 @@
             "image": "/images/products/monmon/IGC_7041.jpg",
             "price": "465,000"
         }
+    ],
+    "promilk": [
+        {
+            "id": 8,
+            "title": "Pro Milk GROW",
+            "description": "Dùng cho trẻ từ 1 \uF0E0 15 tuổi (Phát triển chiều cao và trí não ).",
+            "image": "/images/products/promilk/IGC_7017.jpg",
+            "price": "385,000"
+        },
+        {
+            "id": 9,
+            "title": "Pro Milk CANXI NANO",
+            "description": "Dùng cho người trung niên và người lớn tuổi cần bổ sung thêm canxi.",
+            "image": "/images/products/promilk/IGC_7023.jpg",
+            "price": "360,000"
+        },
+        {
+            "id": 10,
+            "title": "Pro Milk WEIGHT GAIN",
+            "description": "Dùng cho mọi lứa tuổi ( Dinh dưỡng dặc biệt danh cho người gầy ).",
+            "image": "/images/products/promilk/IGC_7026.jpg",
+            "price": "360,000"
+        },
+        {
+            "id": 11,
+            "title": "Pro Milk MAMA",
+            "description": "Dùng cho bà bầu và cho con bú ( Giúp thai nhi phát triển toàn diện).",
+            "image": "/images/products/promilk/IGC_7028.jpg",
+            "price": "360,000"
+        },
+        {
+            "id": 12,
+            "title": "Pro Milk DIABETES",
+            "description": "Dùng cho người mắc bệnh tiểu đường, cần phục hổi sức khỏe.",
+            "image": "/images/products/promilk/IGC_7031.jpg",
+            "price": "392,000"
+        },
+        {
+            "id": 13,
+            "title": "Pro Milk PEDIA",
+            "description": "Dùng cho trẻ biếng ăn từ 1 \uF0E0 10 tuổi.  Hỗ trợ phát triển tiêu hóa cho bé yêu.",
+            "image": "/images/products/promilk/IGC_7032.jpg",
+            "price": "385,000"
+        }
+    ],
+    "zinzin": [
+        {
+            "id": 14,
+            "title": "ZinZin WEIGHT GAIN",
+            "description": "Dùng cho mọi lứa tuổi ( Dinh dưỡng dặc biệt danh cho người gầy, người cần cải thiện cân nặng, thể trạng giúp tăng cân bền vững.",
+            "image": "/images/products/zinzin/IGC_6440.jpg",
+            "price": "392,000"
+        },
+        {
+            "id": 15,
+            "title": "ZinBaby GROW IQ",
+            "description": "Dùng cho trẻ từ 1 \uF0E0 15 tuổi (Phát triển chiều cao và trí não,  hỗ trợ tối đa cho sự phát triển hệ nhãn khoa).",
+            "image": "/images/products/zinzin/IGC_6441.jpg",
+            "price": "435,000"
+        },
+        {
+            "id": 16,
+            "title": "ZinBaby KIDS",
+            "description": "(Dùng cho trẻ từ 0 – 12 tháng tuổi) Tăng sức đề kháng, miễn dịch tiêu hóa, hấp thu cho trẻ sinh non.",
+            "image": "/images/products/zinzin/IGC_6442.jpg",
+            "price": "445,000"
+        },
+        {
+            "id": 17,
+            "title": "ZinZin TOPSURE",
+            "description": "(Dùng cho người từ 18 tuổi trở lên). Dành cho người cần phục hồi sức khỏe trước và sau phẫu thuật, hỗ trợ hệ tim mạch, ngăn ngừa táo bón và tăng sức đề kháng.",
+            "image": "/images/products/zinzin/IGC_6447.jpg",
+            "price": "455,000"
+        },
+        {
+            "id": 18,
+            "title": "ZinZin CANXI",
+            "description": "(Dùng cho người từ 18 tuổi trở lên).Giúp xương chắc khỏe ngăn ngừa loãng xương, cân bằng huyết áp, ngăn ngừa tiểu đường.",
+            "image": "/images/products/zinzin/IGC_6448.jpg",
+            "price": "392,000"
+        },
+        {
+            "id": 19,
+            "title": "ZinZin DIABETES",
+            "description": "(Dùng cho người từ 18 tuổi trở lên). Giúp ổn định đường huyết, hỗ trợ hệ tiêu hóa ngăn ngừa táo bón, tăng cường sức khỏe thể trạng, tăng cường sức đề kháng.",
+            "image": "/images/products/zinzin/IGC_6449.jpg",
+            "price": "455,000"
+        },
+        {
+            "id": 20,
+            "title": "ZinZin MAMA",
+            "description": "(Dùng cho bà bầu thai kì và sau sinh). Bổ sung vitamin và khoáng chất cần thiết giúp thai nhi phát triển tốt, tăng cường miễn dịch, phòng ngừa suy dinh dưỡng, ngừa táo bón.",
+            "image": "/images/products/zinzin/IGC_6450.jpg",
+            "price": "392,000"
+        },
+        {
+            "id": 21,
+            "title": "ZinZin PEDIA",
+            "description": "(Dùng cho trẻ từ 1 – 10 tuổi) Dùng cho trẻ biếng ăn, hấp thụ kém, cải thiện hệ vi sinh đường ruột giúp hệ tiêu hóa khỏe mạnh.",
+            "image": "/images/products/zinzin/IGC_6451.jpg",
+            "price": "435,000"
+        },
+        {
+            "id": 22,
+            "title": "ZinZin KIDS 400g",
+            "description": "(Dùng cho trẻ từ 0 – 12 tháng tuổi) Tăng sức đề kháng, miễn dịch tiêu hóa, hấp thu cho trẻ sinh non.",
+            "image": "/images/products/zinzin/IGC_6452.jpg",
+            "price": "255,000"
+        }
+    ],
+    "zunllac": [
+        {
+            "id": 23,
+            "title": "Zunllac SURGERY",
+            "description": "(Dùng cho người từ 18 tuổi trở lên). Dành cho người cần phục hồi sức khỏe trước và sau phẫu thuật, hỗ trợ hệ tim mạch, ngăn ngừa táo bón và tăng sức đề kháng.",
+            "image": "/images/products/zunllac/IGC_7044.jpg",
+            "price": "465,000"
+        },
+        {
+            "id": 24,
+            "title": "Zunllac DIABETES",
+            "description": "(Dùng cho người từ 18 tuổi trở lên). Giúp ổn định đường huyết, hỗ trợ hệ tiêu hóa ngăn ngừa táo bón, tăng cường sức khỏe thể trạng, tăng cường sức đề kháng.",
+            "image": "/images/products/zunllac/IGC_7046.jpg",
+            "price": "465,000"
+        },
+        {
+            "id": 25,
+            "title": "Zunllac MAMA",
+            "description": "(Dùng cho bà bầu thai kì và sau sinh). Bổ sung vitamin và khoáng chất cần thiết giúp thai nhi phát triển tốt, tăng cường miễn dịch, phòng ngừa suy dinh dưỡng, ngừa táo bón.",
+            "image": "/images/products/zunllac/IGC_7048.jpg",
+            "price": "425,000"
+        },
+        {
+            "id": 26,
+            "title": "Zunllac GROW IQ",
+            "description": "Dùng cho trẻ từ 1 \uF0E0 15 tuổi (Phát triển chiều cao và trí não,  hỗ trợ tối đa cho sự phát triển hệ nhãn khoa)",
+            "image": "/images/products/zunllac/IGC_7049.jpg",
+            "price": "455,000"
+        },
+        {
+            "id": 27,
+            "title": "Zunllac CANXI",
+            "description": "(Dùng cho người từ 18 tuổi trở lên).Giúp xương chắc khỏe ngăn ngừa loãng xương, cân bằng huyết áp, ngăn ngừa tiểu đường.",
+            "image": "/images/products/zunllac/IGC_7052.jpg",
+            "price": "425,000"
+        },
+        {
+            "id": 28,
+            "title": "Zunllac WEIGHT GAIN",
+            "description": "Dùng cho mọi lứa tuổi ( Dinh dưỡng dặc biệt danh cho người gầy, người cần cải thiện cân nặng, thể trạng giúp tăng cân bền vững.",
+            "image": "/images/products/zunllac/IGC_7053.jpg",
+            "price": "425,000"
+        },
+        {
+            "id": 29,
+            "title": "Zunllac PEDIA",
+            "description": "(Dùng cho trẻ từ 1 – 10 tuổi) Dùng cho trẻ biếng ăn, hấp thụ kém, cải thiện hệ vi sinh đường ruột giúp hệ tiêu hóa khỏe mạnh.",
+            "image": "/images/products/zunllac/IGC_7054.jpg",
+            "price": "455,000"
+        }
     ]
 }

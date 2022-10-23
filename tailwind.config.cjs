@@ -20,6 +20,7 @@ module.exports = {
                 'button-green': '#2A7361',
                 'subtitle-gray': '#585A60',
                 'product-banner-bg-green': '#DEEBE9',
+                'product-banner-bg-green-darker': '#bdc7c6',
                 'product-bg-green': '#EAFAF3',
             },
         },

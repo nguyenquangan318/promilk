@@ -1,14 +1,18 @@
 [
     {
-        "name": "Monmon"
+        "name": "Monmon",
+        "key": "monmon"
     },
     {
-        "name": "Zunllac"
+        "name": "Zunllac",
+        "key": "zunllac"
     },
     {
-        "name": "Zinzin"
+        "name": "Zinzin",
+        "key": "zinzin"
     },
     {
-        "name": "Promilk"
+        "name": "Promilk",
+        "key": "promilk"
     }
 ]

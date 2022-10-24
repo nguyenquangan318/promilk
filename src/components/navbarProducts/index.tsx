@@ -13,7 +13,7 @@ function NavbarProducts() {
     return (
         <div className={'navbarProducts'}>
             <div className={'banner'}>
-                <Navbar bg="light" expand="md" sticky="top" className={'ppx-bg-product-bg-green ppx-shadow-lg'}>
+                <Navbar bg="light" expand="md" fixed={'top'} className={'ppx-bg-product-bg-green ppx-shadow-md'}>
                     <Container>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 

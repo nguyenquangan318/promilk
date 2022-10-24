@@ -13,6 +13,7 @@ import cert1 from '../../assets/images/certs/1.jpg';
 import cert2 from '../../assets/images/certs/2.jpg';
 import { Link } from 'react-router-dom';
 import hotProductsData from '../../data/hotProducts.json';
+import { Footer } from '../../components/footer';
 
 function Home() {
     return (
@@ -142,7 +143,7 @@ function Home() {
 
             <div className={'products ppx-mt-24 mb-3 text-center'}>
                 <div className={'ppx-container'}>
-                    <p className={'ppx-font-semibold ppx-text-3xl'}>Sản phẩm của chúng tôi</p>
+                    <p className={'ppx-font-semibold ppx-text-3xl'}>Sản phẩm HOT</p>
                 </div>
 
                 <Row className={'ppx-container ppx-h-full'}>
@@ -153,8 +154,10 @@ function Home() {
                     ))}
                 </Row>
 
-                <Link to={'/products'} className={'mt-1'}>
-                    <p className={'ppx-text-brand-green ppx-font-semibold text-center ppx-text-xl'}>Tất cả sản phẩm</p>
+                <Link to={'/products'} className={'mt-2'}>
+                    <button className={'ppx-bg-brand-green ppx-font-medium text-center ppx-text-lg ppx-py-2 ppx-px-8 ppx-text-white ppx-rounded-3xl'}>
+                        Tất cả sản phẩm <i className={'fa-solid fa-arrow-right ppx-ml-1'}></i>
+                    </button>
                 </Link>
             </div>
 
@@ -273,7 +276,7 @@ function Home() {
                 </div>
             </div>
 
-            <div className={'ppx-hidden md:ppx-block ppx-mt-32 ppx-bg-bg-green ppx-container ppx-rounded-3xl'}>
+            <div className={'ppx-hidden md:ppx-block ppx-mt-32 ppx-bg-bg-green ppx-container ppx-rounded-3xl mb-5'}>
                 <div className={'ppx-px-10 ppx-relative ppx-py-10 text-center'}>
                     <div className={'ppx-flex ppx-flex-row ppx-justify-around'}>
                         <img src={cert1} alt={'cert 1'} style={{ height: '32rem' }} className={'ppx-w-auto'} />
@@ -285,78 +288,7 @@ function Home() {
                 </div>
             </div>
 
-            {/*Footer*/}
-            {/*For desktop*/}
-            <div className={'ppx-hidden md:ppx-block footer mt-5 ppx-bg-brand-green ppx-text-gray-100'}>
-                <div className={'ppx-container'}>
-                    <Row>
-                        <Col style={{ borderRight: '1px solid #fff', borderBottom: '1px solid #fff' }} className={'ppx-pt-10'}>
-                            <p className={'ppx-font-black ppx-text-3xl mb-3'}>Promilk</p>
-                            <p className={'ppx-font-light mb-3'}>Phân phối bỏi công ty TNHH Dược phẩm DIAMOND</p>
-                            <p className={'ppx-font-light mb-3'}>
-                                Sản xuất: <span className={'ppx-font-semibold'}>Nhà máy sữa promilk</span>
-                            </p>
-                            <p className={'ppx-font-light'}>Địa chỉ: Phù Đổng, Gia Lâm, Hà Nội</p>
-                        </Col>
-
-                        <Col style={{ borderBottom: '1px solid #fff' }} className={'ppx-pt-10 ppx-pb-14'}>
-                            <p className={'ppx-font-black ppx-text-3xl mb-3'}>Liên hệ</p>
-                            <p className={'ppx-font-light mb-3'}>
-                                <span className={'ppx-font-semibold'}>Địa chỉ:</span> 120/42 Kim Giang, p.Đại Kim, Hoàng Mai, Hà Nội
-                            </p>
-                            <p className={'ppx-font-light mb-3'}>
-                                <span className={'ppx-font-semibold'}>Email:</span> <a href={'mailto:diamondpharmavn@gmail.com'}>diamondpharmavn@gmail.com</a>
-                            </p>
-                            <p className={'ppx-font-light mb-3'}>
-                                <span className={'ppx-font-semibold'}>Số điện thoại:</span> 0931999828
-                            </p>
-                            <p className={'ppx-font-light'}>
-                                <span className={'ppx-font-semibold'}>Website:</span> <a href={'https://promilk.vn'}>https://promilk.vn</a>
-                            </p>
-                        </Col>
-
-                        <Col style={{ borderLeft: '1px solid #fff', borderBottom: '1px solid #fff' }}></Col>
-                    </Row>
-
-                    <div className={'ppx-py-5 text-center'}>
-                        <p>Copyright © {new Date().getFullYear()} PROMILK</p>
-                    </div>
-                </div>
-            </div>
-
-            {/*Mobile*/}
-            <div className={'md:ppx-hidden ppx-bg-brand-green ppx-text-gray-100 mt-5 py-5 px-4'}>
-                <p className={'ppx-text-4xl ppx-font-bold'}>Promilk</p>
-
-                <div className={'mt-5'}>
-                    <p className={'ppx-font-light mb-3'}>Phân phối bỏi công ty TNHH Dược phẩm DIAMOND</p>
-                    <p className={'ppx-font-light mb-3'}>
-                        Sản xuất: <span className={'ppx-font-semibold'}>Nhà máy sữa promilk</span>
-                    </p>
-                    <p className={'ppx-font-light'}>Địa chỉ: Phù Đổng, Gia Lâm, Hà Nội</p>
-                </div>
-
-                <div className={'mt-5'}>
-                    <p className={'ppx-font-semibold ppx-text-2xl mb-3'}>Liên hệ</p>
-
-                    <p className={'ppx-font-light mb-3'}>
-                        <span className={'ppx-font-semibold'}>Địa chỉ:</span> 120/42 Kim Giang, p.Đại Kim, Hoàng Mai, Hà Nội
-                    </p>
-                    <p className={'ppx-font-light mb-3'}>
-                        <span className={'ppx-font-semibold'}>Email:</span> <a href={'mailto:diamondpharmavn@gmail.com'}>diamondpharmavn@gmail.com</a>
-                    </p>
-                    <p className={'ppx-font-light mb-3'}>
-                        <span className={'ppx-font-semibold'}>Số điện thoại:</span> 0931999828
-                    </p>
-                    <p className={'ppx-font-light'}>
-                        <span className={'ppx-font-semibold'}>Website:</span> <a href={'https://promilk.vn'}>https://promilk.vn</a>
-                    </p>
-                </div>
-
-                <hr className={'ppx-text-white ppx-border-2 ppx-border-white mt-3 mb-2'} />
-
-                <p className={'text-center ppx-text-sm'}>Copyright © {new Date().getFullYear()} PROMILK</p>
-            </div>
+            <Footer />
         </div>
     );
 }

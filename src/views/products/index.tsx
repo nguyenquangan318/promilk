@@ -20,6 +20,7 @@ import './index.css';
 import tagsListData from '../../data/productTags.json';
 import productsData from '../../data/products.json';
 import { shuffleArray } from '../../utils/shuffleArray';
+import { Footer } from '../../components/footer';
 
 const shuffleProduct = () => {
     const final = [];
@@ -89,17 +90,17 @@ function Products() {
     };
 
     return (
-        <div className={'productPage'}>
+        <div className={'productPage ppx-pt-14'}>
             <NavbarProducts />
 
             <div className={'haizBanner ppx-bg-product-banner-bg-green ppx-pt-5 md:ppx-pb-2 ppx-pb-5'}>
                 <Container>
                     <Row>
-                        <Col sm={8}>
+                        <Col xs={12} md={8}>
                             <img src={bannerDesktop1} alt={'Banner Desktop 1'} />
                         </Col>
 
-                        <Col sm={4} className={'ppx-flex ppx-flex-col ppx-justify-between'}>
+                        <Col xs={12} sm={4} className={'ppx-hidden md:ppx-flex ppx-flex-col ppx-justify-between'}>
                             <img src={bannerDesktop2} alt={'Banner Desktop 1'} />
                             <img src={bannerDesktop3} alt={'Banner Desktop 1'} />
                         </Col>
@@ -147,7 +148,7 @@ function Products() {
                         <button
                             onClick={() => onChangeTag('all')}
                             className={
-                                'ppx-mr-3 ppx-bg-product-banner-bg-green ppx-border-product-banner-bg-green ppx-font-semibold ppx-rounded-2xl ppx-border-2 ppx-shadow-lg ppx-py-1 ppx-px-4 hover:ppx-bg-product-banner-bg-green-darker'
+                                'ppx-mr-3 ppx-bg-product-banner-bg-green ppx-border-product-banner-bg-green ppx-font-semibold ppx-rounded-2xl ppx-shadow-lg ppx-py-2 ppx-px-5 hover:ppx-bg-product-banner-bg-green-darker'
                             }
                         >
                             Tất cả
@@ -177,6 +178,8 @@ function Products() {
                     </div>
                 </Container>
             </div>
+
+            <Footer />
         </div>
     );
 }

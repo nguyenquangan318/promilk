@@ -138,15 +138,24 @@ function Home() {
                     </p>
 
                     <div className={'videoPlayer mt-3 ppx-flex ppx-justify-center'}>
-                        <iframe
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/36TFKpVwHrU"
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                        ></iframe>
+                        <Flicking plugins={plugins} align="prev" circular={true} circularFallback={'bound'} bound={true}>
+                            <div className="panel ppx-mx-3">
+                                <iframe width="560" height="315" src="https://www.fembed.com/v/mrk32b5dyqk52gm" frameBorder="0" allowFullScreen></iframe>
+                            </div>
+
+                            <div className="panel  ppx-mx-3">
+                                <iframe width="560" height="315" src="https://www.fembed.com/v/mrk32b5dyqken6d" frameBorder="0" allowFullScreen></iframe>
+                            </div>
+
+                            <div className="panel ppx-mx-3">
+                                <iframe width="560" height="315" src="https://www.fembed.com/v/6wlkmf0yq7j574x" frameBorder="0" allowFullScreen></iframe>
+                            </div>
+
+                            <ViewportSlot>
+                                <span className="flicking-arrow-prev"></span>
+                                <span className="flicking-arrow-next"></span>
+                            </ViewportSlot>
+                        </Flicking>
                     </div>
                 </Container>
             </div>

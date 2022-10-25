@@ -171,7 +171,7 @@ function Products() {
                         <Row>
                             {showProduct.map((x: any) => (
                                 <Col xs={6} md={3} key={x.id}>
-                                    <ProductCard hotProduct imagePath={x.image} title={x.title} price={x.price} />
+                                    <ProductCard hotProduct imagePath={x.image} title={x.title} price={x.price} id={x.id} />
                                 </Col>
                             ))}
                         </Row>

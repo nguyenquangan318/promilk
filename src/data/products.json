@@ -38,7 +38,7 @@
         {
             "id": 6,
             "title": "Monmon GROW",
-            "description": "Dùng cho trẻ từ 1 \uF0E0 15 tuổi (Phát triển chiều cao và trí não,  hỗ trợ tối đa cho sự phát triển hệ nhãn khoa).",
+            "description": "Dùng cho trẻ từ 1 đến 15 tuổi (Phát triển chiều cao và trí não,  hỗ trợ tối đa cho sự phát triển hệ nhãn khoa).",
             "image": "/images/products/monmon/IGC_7040.jpg",
             "price": "465,000"
         },
@@ -54,7 +54,7 @@
         {
             "id": 8,
             "title": "Pro Milk GROW",
-            "description": "Dùng cho trẻ từ 1 \uF0E0 15 tuổi (Phát triển chiều cao và trí não ).",
+            "description": "Dùng cho trẻ từ 1 đến 15 tuổi (Phát triển chiều cao và trí não ).",
             "image": "/images/products/promilk/IGC_7017.jpg",
             "price": "385,000"
         },
@@ -89,7 +89,7 @@
         {
             "id": 13,
             "title": "Pro Milk PEDIA",
-            "description": "Dùng cho trẻ biếng ăn từ 1 \uF0E0 10 tuổi.  Hỗ trợ phát triển tiêu hóa cho bé yêu.",
+            "description": "Dùng cho trẻ biếng ăn từ 1 đến 10 tuổi.  Hỗ trợ phát triển tiêu hóa cho bé yêu.",
             "image": "/images/products/promilk/IGC_7032.jpg",
             "price": "385,000"
         }
@@ -105,7 +105,7 @@
         {
             "id": 15,
             "title": "ZinBaby GROW IQ",
-            "description": "Dùng cho trẻ từ 1 \uF0E0 15 tuổi (Phát triển chiều cao và trí não,  hỗ trợ tối đa cho sự phát triển hệ nhãn khoa).",
+            "description": "Dùng cho trẻ từ 1 đến 15 tuổi (Phát triển chiều cao và trí não,  hỗ trợ tối đa cho sự phát triển hệ nhãn khoa).",
             "image": "/images/products/zinzin/IGC_6441.jpg",
             "price": "435,000"
         },
@@ -184,7 +184,7 @@
         {
             "id": 26,
             "title": "Zunllac GROW IQ",
-            "description": "Dùng cho trẻ từ 1 \uF0E0 15 tuổi (Phát triển chiều cao và trí não,  hỗ trợ tối đa cho sự phát triển hệ nhãn khoa)",
+            "description": "Dùng cho trẻ từ 1 đến 15 tuổi (Phát triển chiều cao và trí não,  hỗ trợ tối đa cho sự phát triển hệ nhãn khoa)",
             "image": "/images/products/zunllac/IGC_7049.jpg",
             "price": "455,000"
         },

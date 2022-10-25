@@ -7,13 +7,21 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import bgImg from '../../assets/bg.png';
-import { Button, Col, Figure, Row } from 'react-bootstrap';
+import { Button, Col, Row } from 'react-bootstrap';
 import bandage from '../../assets/bandge.svg';
 import cert1 from '../../assets/images/certs/1.jpg';
 import cert2 from '../../assets/images/certs/2.jpg';
 import { Link } from 'react-router-dom';
 import hotProductsData from '../../data/hotProducts.json';
 import { Footer } from '../../components/footer';
+
+import Flicking, { ViewportSlot } from '@egjs/react-flicking';
+import { Arrow, AutoPlay } from '@egjs/flicking-plugins';
+
+import '@egjs/react-flicking/dist/flicking.css';
+import '@egjs/flicking-plugins/dist/flicking-plugins.css';
+
+const plugins = [new AutoPlay({ duration: 2000, direction: 'NEXT', stopOnHover: false }), new Arrow()];
 
 function Home() {
     return (
@@ -35,8 +43,8 @@ function Home() {
                         <Container>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-                            <Navbar.Brand href="#home" className={'text-center'}>
-                                PROMILK
+                            <Navbar.Brand href="#home" className={'text-center ppx-font-semibold'}>
+                                <Link to={'/'}>PROMILK</Link>
                             </Navbar.Brand>
 
                             <Navbar.Collapse id="basic-navbar-nav" className={'ppx-bg-gray-100 md:ppx-bg-white'}>
@@ -75,7 +83,9 @@ function Home() {
                 <div className={'ppx-hidden md:ppx-block'}>
                     <Navbar bg="light" expand="md">
                         <Container>
-                            <Navbar.Brand href="#home">PROMILK</Navbar.Brand>
+                            <Navbar.Brand className={'text-center ppx-font-semibold'}>
+                                <Link to={'/'}>PROMILK</Link>
+                            </Navbar.Brand>
 
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
@@ -143,19 +153,26 @@ function Home() {
 
             <div className={'products ppx-mt-24 mb-3 text-center'}>
                 <div className={'ppx-container'}>
-                    <p className={'ppx-font-semibold ppx-text-3xl'}>Sản phẩm HOT</p>
+                    <p className={'ppx-font-semibold ppx-text-3xl mb-3'}>Sản phẩm HOT</p>
                 </div>
 
                 <Row className={'ppx-container ppx-h-full'}>
-                    {hotProductsData.map((x) => (
-                        <Col xs={6} md={4} key={x}>
-                            <img src={x} alt={'hot product'} />
-                        </Col>
-                    ))}
+                    <Flicking plugins={plugins} align="prev" circular={true} circularFallback={'bound'} bound={true}>
+                        {hotProductsData.map((x) => (
+                            <div className="panel" key={x}>
+                                <img className={'ppx-h-72 ppx-w-auto'} src={x} alt={'hot product'} />
+                            </div>
+                        ))}
+
+                        <ViewportSlot>
+                            <span className="flicking-arrow-prev"></span>
+                            <span className="flicking-arrow-next"></span>
+                        </ViewportSlot>
+                    </Flicking>
                 </Row>
 
-                <Link to={'/products'} className={'mt-2'}>
-                    <button className={'ppx-bg-brand-green ppx-font-medium text-center ppx-text-lg ppx-py-2 ppx-px-8 ppx-text-white ppx-rounded-3xl'}>
+                <Link to={'/products'}>
+                    <button className={'mt-5 ppx-bg-brand-green ppx-font-medium text-center ppx-text-lg ppx-py-2 ppx-px-8 ppx-text-white ppx-rounded-3xl'}>
                         Tất cả sản phẩm <i className={'fa-solid fa-arrow-right ppx-ml-1'}></i>
                     </button>
                 </Link>

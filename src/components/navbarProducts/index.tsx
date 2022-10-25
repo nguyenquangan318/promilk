@@ -17,8 +17,8 @@ function NavbarProducts() {
                     <Container>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-                        <Navbar.Brand href="#home" className={'text-center'}>
-                            PROMILK
+                        <Navbar.Brand href="#home" className={'text-center ppx-font-semibold'}>
+                            <Link to={'/'}>PROMILK</Link>
                         </Navbar.Brand>
 
                         <Navbar.Collapse id="basic-navbar-nav">

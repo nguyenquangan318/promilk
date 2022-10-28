@@ -57,6 +57,9 @@ function Home() {
                                     <Nav.Link>
                                         <Link to={'/products'}>Sản phẩm</Link>
                                     </Nav.Link>
+                                    <Nav.Link>
+                                        <Link to={'/gallery'}>Thư viện ảnh</Link>
+                                    </Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>
@@ -98,6 +101,9 @@ function Home() {
                                     </Nav.Link>
                                     <Nav.Link>
                                         <Link to={'/products'}>Sản phẩm</Link>
+                                    </Nav.Link>
+                                    <Nav.Link>
+                                        <Link to={'/gallery'}>Thư viện ảnh</Link>
                                     </Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>

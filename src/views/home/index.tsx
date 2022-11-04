@@ -21,6 +21,8 @@ import { Arrow, AutoPlay } from '@egjs/flicking-plugins';
 import '@egjs/react-flicking/dist/flicking.css';
 import '@egjs/flicking-plugins/dist/flicking-plugins.css';
 
+import './index.css';
+
 const plugins = [new AutoPlay({ duration: 2000, direction: 'NEXT', stopOnHover: false }), new Arrow()];
 
 function Home() {
@@ -112,13 +114,13 @@ function Home() {
 
                     <div
                         style={{
-                            height: '55rem',
                             backgroundImage: `url(${bgImg})`,
                             backgroundRepeat: 'no-repeat',
                             backgroundPosition: 'center',
                             backgroundSize: 'cover',
+                            // height: '55rem'
                         }}
-                        className={'ppx-bg-bg-green'}
+                        className={'ppx-bg-bg-green desktopBackgroundImage'}
                     >
                         <div className={'ppx-h-full'}>
                             <div className={'ppx-flex ppx-flex-col ppx-justify-center ppx-h-full'}>
@@ -145,17 +147,17 @@ function Home() {
 
                     <div className={'videoPlayer mt-3 ppx-flex ppx-justify-center'}>
                         <Flicking plugins={plugins} align="prev" circular={true} circularFallback={'bound'} bound={true}>
-                            <div className="panel ppx-mx-3">
-                                <iframe width="560" height="315" src="https://www.fembed.com/v/mrk32b5dyqk52gm" frameBorder="0" allowFullScreen></iframe>
-                            </div>
+                            {/*<div className="panel ppx-mx-3">*/}
+                            {/*    <iframe width="560" height="315" src="https://www.fembed.com/v/mrk32b5dyqk52gm" frameBorder="0" allowFullScreen></iframe>*/}
+                            {/*</div>*/}
 
-                            <div className="panel  ppx-mx-3">
-                                <iframe width="560" height="315" src="https://www.fembed.com/v/mrk32b5dyqken6d" frameBorder="0" allowFullScreen></iframe>
-                            </div>
+                            {/*<div className="panel  ppx-mx-3">*/}
+                            {/*    <iframe width="560" height="315" src="https://www.fembed.com/v/mrk32b5dyqken6d" frameBorder="0" allowFullScreen></iframe>*/}
+                            {/*</div>*/}
 
-                            <div className="panel ppx-mx-3">
-                                <iframe width="560" height="315" src="https://www.fembed.com/v/6wlkmf0yq7j574x" frameBorder="0" allowFullScreen></iframe>
-                            </div>
+                            {/*<div className="panel ppx-mx-3">*/}
+                            {/*    <iframe width="560" height="315" src="https://www.fembed.com/v/6wlkmf0yq7j574x" frameBorder="0" allowFullScreen></iframe>*/}
+                            {/*</div>*/}
 
                             <ViewportSlot>
                                 <span className="flicking-arrow-prev"></span>

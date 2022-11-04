@@ -2,3 +2,38 @@
     background-image: url("../../assets/bg.png");
     height: 500px;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .desktopBackgroundImage {
+        height: 40rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .desktopBackgroundImage {
+        height: 25rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .desktopBackgroundImage {
+        height: 30rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .desktopBackgroundImage {
+        height: 38rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
+    .desktopBackgroundImage {
+        height: 55rem;
+    }
+}

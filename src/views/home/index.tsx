@@ -128,7 +128,7 @@ function Home() {
                                     variant="success"
                                     size={'lg'}
                                     style={{ background: 'linear-gradient(270deg, #6ABCF8 -3.88%, #2C908A 46.22%, #1A6452 74.27%)' }}
-                                    className={'ppx-ml-32 ppx-mt-48 ppx-w-2/12 ppx-rounded-3xl'}
+                                    className={'ppx-ml-20 xl:ppx-ml-28 ppx-mt-48 ppx-w-4/12 xl:ppx-w-2/12 ppx-rounded-3xl'}
                                 >
                                     Tìm hiểu thêm
                                 </Button>
@@ -147,17 +147,17 @@ function Home() {
 
                     <div className={'videoPlayer mt-3 ppx-flex ppx-justify-center'}>
                         <Flicking plugins={plugins} align="prev" circular={true} circularFallback={'bound'} bound={true}>
-                            {/*<div className="panel ppx-mx-3">*/}
-                            {/*    <iframe width="560" height="315" src="https://www.fembed.com/v/mrk32b5dyqk52gm" frameBorder="0" allowFullScreen></iframe>*/}
-                            {/*</div>*/}
+                            <div className="panel ppx-mx-3">
+                                <iframe src="https://cdn.jwplayer.com/players/5Hg6jYvQ-vp9Sa9Ot.html" width="100%" height="100%" allowFullScreen></iframe>
+                            </div>
 
-                            {/*<div className="panel  ppx-mx-3">*/}
-                            {/*    <iframe width="560" height="315" src="https://www.fembed.com/v/mrk32b5dyqken6d" frameBorder="0" allowFullScreen></iframe>*/}
-                            {/*</div>*/}
+                            <div className="panel  ppx-mx-3">
+                                <iframe src="https://cdn.jwplayer.com/players/1wOQ0pRC-vp9Sa9Ot.html" width="100%" height="100%" allowFullScreen></iframe>
+                            </div>
 
-                            {/*<div className="panel ppx-mx-3">*/}
-                            {/*    <iframe width="560" height="315" src="https://www.fembed.com/v/6wlkmf0yq7j574x" frameBorder="0" allowFullScreen></iframe>*/}
-                            {/*</div>*/}
+                            <div className="panel ppx-mx-3">
+                                <iframe src="https://cdn.jwplayer.com/players/Ofy8jB5X-vp9Sa9Ot.html" width="100%" height="100%" allowFullScreen></iframe>
+                            </div>
 
                             <ViewportSlot>
                                 <span className="flicking-arrow-prev"></span>

@@ -244,7 +244,7 @@ function Home() {
             </div>
 
             {/*For desktop only*/}
-            <div className={'ppx-hidden md:ppx-block about mt-5 mb-3 ppx-bg-bg-green py-5'}>
+            <div className={'ppx-hidden md:ppx-block about mt-5 mb-3 ppx-bg-bg-green p-5'}>
                 <div className={'ppx-container'}>
                     <Row>
                         <Col>

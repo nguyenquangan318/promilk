@@ -9,7 +9,7 @@ export function Footer() {
             <div className={'ppx-hidden md:ppx-block footer ppx-bg-brand-green ppx-text-gray-100'}>
                 <div className={'ppx-container'}>
                     <Row>
-                        <Col style={{ borderRight: '1px solid #fff', borderBottom: '1px solid #fff' }} className={'ppx-pt-10'}>
+                        <Col style={{ borderRight: '1px solid #fff', borderBottom: '1px solid #fff', paddingLeft: '2rem'}} className={'ppx-pt-10'}>
                             <p className={'ppx-font-black ppx-text-3xl mb-3'}>Promilk</p>
                             <p className={'ppx-font-light mb-3'}>Phân phối bỏi công ty TNHH Dược phẩm DIAMOND</p>
                             <p className={'ppx-font-light mb-3'}>
@@ -18,7 +18,7 @@ export function Footer() {
                             <p className={'ppx-font-light'}>Địa chỉ: Phù Đổng, Gia Lâm, Hà Nội</p>
                         </Col>
 
-                        <Col style={{ borderBottom: '1px solid #fff' }} className={'ppx-pt-10 ppx-pb-14'}>
+                        <Col style={{ borderBottom: '1px solid #fff', paddingLeft: '2rem' }} className={'ppx-pt-10 ppx-pb-14'}>
                             <p className={'ppx-font-black ppx-text-3xl mb-3'}>Liên hệ</p>
                             <p className={'ppx-font-light mb-3'}>
                                 <span className={'ppx-font-semibold'}>Địa chỉ:</span> 120/42 Kim Giang, p.Đại Kim, Hoàng Mai, Hà Nội
